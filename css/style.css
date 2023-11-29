@@ -29,7 +29,9 @@ body {
 .layout_padding-bottom {
   padding-bottom: 90px;
 }
-
+.bg-blue{
+  background-color: #00204a;
+}
 .heading_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -415,7 +417,7 @@ a:focus {
           align-items: center;
   text-align: center;
   margin-top: 45px;
-  background-color: #f8f8f9;
+  background-color: white;
   padding: 20px;
   border-radius: 5px;
 }
@@ -430,9 +432,10 @@ a:focus {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  width: 125px;
+  width: 150px;
   min-width: 75px;
-  height: 75px;
+  max-width: 150px;
+  height: 150px;
   margin-bottom: 15px;
 }
 
@@ -480,6 +483,11 @@ a:focus {
 
 .service_section .btn-box a:hover {
   background-color: #007fa4;
+}
+
+.bg-white {
+  background-color: #ffffff;
+  color: #00204a;
 }
 
 .about_section {
